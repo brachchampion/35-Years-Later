@@ -27,7 +27,7 @@ use "35_Years_Later_PublicData.dta",clear
 	global agegroups 	73 61 49
 	global wtbk35		[pw=wt_74m2bk35_em]
 	global wtbk6		[pw=wt_74m2bk6_em]
-	global wt96			[pw=wt_74_96_74cen_base_ero_meg]
+	global wt96		[pw=wt_74_96_74cen_base_ero_meg]
 	global cluster		ch_vill_public
 	global baseline_ctrls 	m2_m1_islamic age74_chcl hhh_ed_yrs74_chcl hhhsp_ed_yrs74_chcl hhc_bari_size74_chcl hhc_famsize74_chcl			///
 						hhh_agria74_chcl hhh_fisha74_chcl hhh_busi74_chcl hhc_walltinmix74_chcl hhc_rooftin74_chcl hhc_latfix74_chcl	///
