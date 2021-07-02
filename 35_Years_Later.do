@@ -29,26 +29,26 @@ use "35_Years_Later_PublicData.dta",clear
 	global wtbk6		[pw=wt_74m2bk6_em]
 	global wt96		[pw=wt_74_96_74cen_base_ero_meg]
 	global cluster		ch_vill_public
-	global baseline_ctrls 	m2_m1_islamic age74_chcl hhh_ed_yrs74_chcl hhhsp_ed_yrs74_chcl hhc_bari_size74_chcl hhc_famsize74_chcl			///
-						hhh_agria74_chcl hhh_fisha74_chcl hhh_busi74_chcl hhc_walltinmix74_chcl hhc_rooftin74_chcl hhc_latfix74_chcl	///
-						hhc_drinktw74_chcl hhc_drinktkw74_chcl hhc_land82_chcl hhc_nroom74pc_chcl hhc_nboat74_chcl hhc_ncow74_chcl		///
-						hhc_lamp74_chcl hhc_watch74_chcl hhc_radio74_chcl ars4_50 ars4_100 ars4_150 ars4_400 
+	global baseline_ctrls 	m2_m1_islamic age74_chcl hhh_ed_yrs74_chcl hhhsp_ed_yrs74_chcl hhc_bari_size74_chcl hhc_famsize74_chcl		///
+				hhh_agria74_chcl hhh_fisha74_chcl hhh_busi74_chcl hhc_walltinmix74_chcl hhc_rooftin74_chcl hhc_latfix74_chcl	///
+				hhc_drinktw74_chcl hhc_drinktkw74_chcl hhc_land82_chcl hhc_nroom74pc_chcl hhc_nboat74_chcl hhc_ncow74_chcl	///
+				hhc_lamp74_chcl hhc_watch74_chcl hhc_radio74_chcl ars4_50 ars4_100 ars4_150 ars4_400 
 	global baseline_ctrls_int	m2_m1_islamic_gr73 m2_m1_islamic_gr61 age74_chcl_gr73 age74_chcl_gr61 hhh_ed_yrs74_chcl_gr73 hhh_ed_yrs74_chcl_gr61				///
-						hhhsp_ed_yrs74_chcl_gr73 hhhsp_ed_yrs74_chcl_gr61 hhc_bari_size74_chcl_gr73 hhc_bari_size74_chcl_gr61			///
-						hhc_famsize74_chcl_gr73 hhc_famsize74_chcl_gr61 hhh_agria74_chcl_gr73 hhh_agria74_chcl_gr61						///
-						hhh_fisha74_chcl_gr73 hhh_fisha74_chcl_gr61 hhh_busi74_chcl_gr73 hhh_busi74_chcl_gr61 hhc_walltinmix74_chcl_gr73 ///
-						hhc_walltinmix74_chcl_gr61 hhc_rooftin74_chcl_gr73 hhc_rooftin74_chcl_gr61 hhc_latfix74_chcl_gr73				///
-						hhc_latfix74_chcl_gr61 hhc_drinktw74_chcl_gr73 hhc_drinktw74_chcl_gr61 hhc_drinktkw74_chcl_gr73					///
-						hhc_drinktkw74_chcl_gr61 hhc_land82_chcl_gr73 hhc_land82_chcl_gr61 hhc_nroom74pc_chcl_gr73						///
-						hhc_nroom74pc_chcl_gr61 hhc_nboat74_chcl_gr73 hhc_nboat74_chcl_gr61 hhc_ncow74_chcl_gr73 hhc_ncow74_chcl_gr61	///
-						hhc_lamp74_chcl_gr73 hhc_lamp74_chcl_gr61 hhc_watch74_chcl_gr73 hhc_watch74_chcl_gr61 hhc_radio74_chcl_gr73		///
-						hhc_radio74_chcl_gr61 ars4_50_gr73 ars4_50_gr61 ars4_100_gr73 ars4_100_gr61 ars4_150_gr73 ars4_150_gr61			///
-						ars4_400_gr73 ars4_400_gr61
+					hhhsp_ed_yrs74_chcl_gr73 hhhsp_ed_yrs74_chcl_gr61 hhc_bari_size74_chcl_gr73 hhc_bari_size74_chcl_gr61			///
+					hhc_famsize74_chcl_gr73 hhc_famsize74_chcl_gr61 hhh_agria74_chcl_gr73 hhh_agria74_chcl_gr61				///
+					hhh_fisha74_chcl_gr73 hhh_fisha74_chcl_gr61 hhh_busi74_chcl_gr73 hhh_busi74_chcl_gr61 hhc_walltinmix74_chcl_gr73 	///
+					hhc_walltinmix74_chcl_gr61 hhc_rooftin74_chcl_gr73 hhc_rooftin74_chcl_gr61 hhc_latfix74_chcl_gr73			///
+					hhc_latfix74_chcl_gr61 hhc_drinktw74_chcl_gr73 hhc_drinktw74_chcl_gr61 hhc_drinktkw74_chcl_gr73				///
+					hhc_drinktkw74_chcl_gr61 hhc_land82_chcl_gr73 hhc_land82_chcl_gr61 hhc_nroom74pc_chcl_gr73				///
+					hhc_nroom74pc_chcl_gr61 hhc_nboat74_chcl_gr73 hhc_nboat74_chcl_gr61 hhc_ncow74_chcl_gr73 hhc_ncow74_chcl_gr61		///
+					hhc_lamp74_chcl_gr73 hhc_lamp74_chcl_gr61 hhc_watch74_chcl_gr73 hhc_watch74_chcl_gr61 hhc_radio74_chcl_gr73		///
+					hhc_radio74_chcl_gr61 ars4_50_gr73 ars4_50_gr61 ars4_100_gr73 ars4_100_gr61 ars4_150_gr73 ars4_150_gr61			///
+					ars4_400_gr73 ars4_400_gr61
 	* Marker label for coefplot
 	global	b_par_cm	string(@b, "%3.2f") /// Beta
-						+ " (" + string(@aux1, "%3.2f") + ")" /// (control mean)
-						+ 	cond(@aux2<.001,"***", 	/// Significance stars
-							cond(@aux2<.01,"**",	///
+						+ " (" + string(@aux1, "%3.2f") + ")" 	/// (control mean)
+						+ 	cond(@aux2<.001,"***", 		/// Significance stars
+							cond(@aux2<.01,"**",		///
 							cond(@aux2<.05,"*",		///
 							cond(@aux2<.1,"+",""))))	
 	* Custom outreg program 
@@ -59,11 +59,11 @@ use "35_Years_Later_PublicData.dta",clear
 				local meanC`i' = r(mean)
 			}
 		global addstat	addstat(Mean Control 1973, `meanC73',	///
-								Mean Control 1961, `meanC61',	///
-								Mean Control 1949, `meanC49',	///
-								N,e(N))
+					Mean Control 1961, `meanC61',	///
+					Mean Control 1949, `meanC49',	///
+					N,e(N))
 		global options		label nocons noobs nor2 sym(**,*,+) excel append ///
-							keep(ch_treat*) sortvar(ch_treat*) $addstat ci dec(2) adec(2) afmt(f)
+					keep(ch_treat*) sortvar(ch_treat*) $addstat ci dec(2) adec(2) afmt(f)
 		outreg2 using "`2'", $options
 	end
 	* Main tables and figures
