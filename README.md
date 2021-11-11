@@ -16,4 +16,4 @@ The data and full documentation are found here: https://www.openicpsr.org/openic
 
 *Note: some results may differ slightly due to top-coding of variables for privacy concerns.*
 
-**Use and sharing:** All code was written by me (Brachel Champion) and provided for the purpose of replication. For permissions other than replilcation, please email me at brachel.champion@colorado.edu.
+**Use and sharing:** All code was written by me (Brachel Champion) and provided for the purpose of replication. For permissions other than replication, please email me at brachel.champion@colorado.edu.
